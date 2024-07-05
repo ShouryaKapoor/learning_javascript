@@ -1,0 +1,31 @@
+
+fullname = 'Shourya kapoor'
+console.log(fullname);
+
+/* variables and data types
+let
+var
+const
+*/
+
+{
+    let a = 10;
+    console.log(a);
+}
+{
+    let a = 20;
+    console.log(a);
+}
+
+/* objects in JS - properties/ characteristics */
+const person = {
+    name: 'Shourya kapoor',
+    age: 20,
+    gender: 'male',
+    isCoder: 'true',
+}
+console.log(person);
+
+person['age'] = person['age'] + 1 ;
+
+console.log(person['age']);
