@@ -1,0 +1,48 @@
+//console.log("hello world");
+//to type a comment -> '//'
+//to type a comment that spans multiple lines -> '/*' and '*/'
+
+/* conditional statements*/
+//if statements
+//if (condition) {
+//    //code to be executed if the condition is true
+//} else {
+//    //code to be executed if the condition is false
+//}
+
+/*let age = 25;
+
+if (age >= 18 && age < 20) {
+    console.log("You are an adult");
+    } 
+    else if (age < 18)
+         {
+        console.log("You are a minor");
+        }
+    else (age> 20)
+    {
+        console.log("You are older");
+    }
+        */
+let color;
+let mode  = 'light-mode';
+if(mode === 'dark-mode')
+    {
+        color = 'black';
+    }
+    else
+    {
+        color = 'white';
+    }
+console.log(color);
+console.log(mode);
+
+let age = 25;
+f = age > 18 ? "You are an adult" : "You are not an adult";
+console.log(f);
+
+// to give message one time popup - alert()
+// to give message one time popup with taking an input - prompt()
+
+let name  = prompt("Hello");
+console.log(name);
