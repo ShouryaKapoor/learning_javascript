@@ -1,0 +1,33 @@
+console.log("Working on Loops");
+/*for(i=1;i<=5;i++)
+    {
+        console.log("Loops")
+    }
+num = prompt("Enter a number to check sum of natural numbers upto it:");
+let sum = 0;
+for(i=1;i<=num;i++)
+    {
+        sum = sum + i;
+    }
+    alert(sum);*/
+//for of loop
+/*let size = 0;
+let str = "hello";
+for(let x of str)
+    {
+        console.log("x=",x);
+        size++;
+    }
+    console.log("Size of sting = ",size);
+*/
+//for in loop
+//create an object 'student'
+let student  = {
+    name : "Shourya",
+    age : 20,
+    marks : 90
+    }
+for(let x in student)
+    {
+        console.log("key = ",x,"value =",student[x]);
+    }
