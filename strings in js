@@ -1,0 +1,22 @@
+//Strings
+
+let str = "ShouryaKapoor";
+console.log(str[8]);
+
+//Template Literals
+let name = `String Literal`;
+console.log(name);
+
+let obj = {
+    item : 'pen',
+    price : 10
+}
+console.log("The price of" , obj.item , "is ", obj.price);
+console.log(`The price of ${obj.item} is ${obj.price}`);
+
+//string interpolation - adding placeholders whose values pbtained at run time
+// '/n' -> next line character (escape characters) - have a length of one unit in a string 1unit = 1 space
+// '/t' -> tab space between words
+
+//String methods (built in functions)
+console.log(str.toUpperCase());
